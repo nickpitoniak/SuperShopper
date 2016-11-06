@@ -4,7 +4,7 @@ $UPC = $_REQUEST["UPC"];
 
 set_time_limit(0);
 $obj = new AmazonProductAPI();
-$obj->setKeys('AKIAI2YRYY7JLPBJBCMQ', 'OkoWSGCbiFouCJnhhXdDeI8AZ/9Ydie085HBEICc', 'pitoniak50-20');
+$obj->setKeys('XXXX', 'XXXXX', 'XXXX');
 try {
 
   $result = $obj->getItemByUpc($UPC, "Grocery");
