@@ -38,7 +38,7 @@ $itemURL = getXMLObject("thumbnailImage", $result);
 if($itemName != "" && $itemPrice != "" && $itemURL != "") {
 	set_time_limit(0);
 	$obj = new AmazonProductAPI();
-	$obj->setKeys('AKIAI2YRYY7JLPBJBCMQ', 'OkoWSGCbiFouCJnhhXdDeI8AZ/9Ydie085HBEICc', 'pitoniak50-20');
+	$obj->setKeys('XXXXX', 'XXXX', 'XXXXX');
 
 	$result = $obj->getItemByUpc($UPC, "Grocery");
 	$price = html_entity_decode($result->Items->Item->ItemAttributes->ListPrice->Amount);
